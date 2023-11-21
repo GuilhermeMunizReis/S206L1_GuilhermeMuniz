@@ -2,6 +2,15 @@
 
 describe('criando cenário de testes para o site globalsqa', ()=> {
   it.skip('Registrando um usuário com sucesso', ()=> {
+    cy.visit('https://globalsqa.com/angularJs-protractor/registration-login-example/#/login')
+    cy.get('.btn-link').click()
+    cy.get('#firstName').type(user)
+    cy.get('#Text1').type(user)
+    cy.get('#username').type(user)
+    cy.get('#password').type(senha)
+    cy.get('.btn-primary').click()
+    cy.get('.ng-binding').should('contain.text', 'Registration successful')
+
   })
   
   it.skip('Registrando um usuário com falha (faltando a senha)', ()=> {
