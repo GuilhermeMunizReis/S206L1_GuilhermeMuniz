@@ -1,4 +1,4 @@
-package prova_karate.prova_karate;
+package prova_karate;
 
 import com.intuit.karate.junit5.Karate;
 
