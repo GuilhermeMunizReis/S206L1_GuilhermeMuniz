@@ -1,0 +1,18 @@
+#QUESTÃO 1
+        Foram feitas três suítes de testes: Disponibilidade e consistência de dados, pesquisa 
+    de dados e criação de produtos
+
+#QUESTÃO 2
+        São automatizados, sendo apenas necessário rodá-los
+
+#QUESTÃO 3
+        Foram realizados testes de integração, que estão no meio da pirâmide
+
+#QUESTÃO 4
+        Todos os testes são funcionais
+
+#QUESTÃO 5
+        Não, nenhum deles é E2E pois nenhum testa nenhum tipo de interface
+
+#QUESTÃO 6
+        Executar os testes assim que a API for atualizada
